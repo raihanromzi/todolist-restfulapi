@@ -1,0 +1,29 @@
+GET http://localhost:8080
+
+###
+POST http://localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+  "todo": "Nonton"
+}
+
+###
+PUT http://localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0,
+  "todo": "Baca"
+}
+
+###
+DELETE http://localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0
+}
